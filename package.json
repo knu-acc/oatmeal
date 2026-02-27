@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "latest",
+    "framer-motion": "latest",
     "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
     "next-i18next": "latest",
     "next-seo": "latest",
-    "tailwindcss": "latest",
     "postcss": "latest",
-    "autoprefixer": "latest",
-    "framer-motion": "latest"
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "typescript": "^5.9.3"
   }
 }
